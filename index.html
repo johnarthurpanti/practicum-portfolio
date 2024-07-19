@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Arthur Panti</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="about">
+      <!--<div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Arthur Panti" />
+      </div>-->
+      <div class="section__text">
+        <h1 class="title">Hello, I'm John Arthur Panti</h1>
+        <p class="section__text__p2">
+          I am a B.S. Computer Science student from Mapúa Malayan Colleges Laguna
+        </p>
+        <p class="section__text__p1">Passionate about software development and dedicated to providing cutting-edge solutions through innovative problem-solving</p>
+        <div id="socials-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/PANTI, JOHN ARTHUR - CV.pdf')"> Download CV
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/bplo-logo.png"
+                alt="BPLO"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Document Management System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://e-ganapp.mcl-ccis.net/', '_blank')">
+                Documentation
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/e-ganapp.png"
+                alt="e-ganapp"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">e-ganapp</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://e-ganapp.mcl-ccis.net/', '_blank')">
+                Website
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/sdo-cabuyao.png"
+                alt="SDO Cabuyao"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Document Tracking System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Documentation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Software Engineer Intern</h3>
+            <p>City Government of Biñan<br/>May 02, 2024 - July 12, 2024 </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education">
+      <h1 class="title">Education</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Mapúa Malayan Colleges Laguna</h3>
+            <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
+            <p>2020 - Present</p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Mapúa Malayan Colleges Laguna</h3>
+            <p>INFORMATION AND COMMUNICATIONS TECHNOLOGY</p>
+            <p>2018 - 2020</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/css.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/js.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>JS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/php.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/python.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/csharp.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/java.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/cplus.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/mysql.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/git.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/codeigniter.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>CodeIgniter</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/react.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:johnarthurpanti@gmail.com">johnarthurpanti@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a onclick="window.open('https://www.linkedin.com/in/johnarthurpanti/', '_blank')">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a onclick="window.open('https://github.com/johnarthurpanti/', '_blank')">GitHub</a></p>
+        </div>
+      </div>
+    </section>
+    <!--<footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>-->
+    <script src="script.js"></script>
+  </body>
+</html>
